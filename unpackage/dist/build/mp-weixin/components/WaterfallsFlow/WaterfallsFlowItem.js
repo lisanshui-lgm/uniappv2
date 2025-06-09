@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/WaterfallsFlow/WaterfallsFlowItem"],{4204:function(e,t,n){"use strict";n.r(t);var a=n("45cd"),o=n("f18f");for(var i in o)["default"].indexOf(i)<0&&function(e){n.d(t,e,(function(){return o[e]}))}(i);n("b8cd");var u=n("828b"),c=Object(u["a"])(o["default"],a["b"],a["c"],!1,null,"77ea5d56",null,!1,a["a"],void 0);t["default"]=c.exports},"45cd":function(e,t,n){"use strict";n.d(t,"b",(function(){return o})),n.d(t,"c",(function(){return i})),n.d(t,"a",(function(){return a}));var a={easyLoadimage:function(){return n.e("components/easy-loadimage/easy-loadimage").then(n.bind(null,"85c5"))}},o=function(){var e=this.$createElement,t=(this._self._c,Number(this.item.vip_price));this.$mp.data=Object.assign({},{$root:{m0:t}})},i=[]},b8cd:function(e,t,n){"use strict";var a=n("c975"),o=n.n(a);o.a},c159:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;n("8f59");var a=n("743f"),o={components:{easyLoadimage:function(){n.e("components/easy-loadimage/easy-loadimage").then(function(){return resolve(n("85c5"))}.bind(null,n)).catch(n.oe)}},props:{item:{type:Object,require:!0},type:{type:Number,default:0},recommend:{type:Boolean,default:!1},goDetail:{type:String,default:""}},data:function(){return{domain:a.HTTP_REQUEST_URL}},methods:{addCartChange:function(){this.$eventHub.$emit("onCartAddChange",this.item)}}};t.default=o},c975:function(e,t,n){},f18f:function(e,t,n){"use strict";n.r(t);var a=n("c159"),o=n.n(a);for(var i in a)["default"].indexOf(i)<0&&function(e){n.d(t,e,(function(){return a[e]}))}(i);t["default"]=o.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/WaterfallsFlow/WaterfallsFlowItem-create-component',
+    {
+        'components/WaterfallsFlow/WaterfallsFlowItem-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('df3c')['createComponent'](__webpack_require__("4204"))
+        })
+    },
+    [['components/WaterfallsFlow/WaterfallsFlowItem-create-component']]
+]);

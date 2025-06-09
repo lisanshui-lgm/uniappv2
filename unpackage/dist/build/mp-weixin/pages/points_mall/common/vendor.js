@@ -1,0 +1,1 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/points_mall/common/vendor"],{a49f:function(e,t,a){"use strict";var n=a("47a9");Object.defineProperty(t,"__esModule",{value:!0}),t.getStoreIntegral=function(e){return o.default.get("store_integral/index",e)};var o=n(a("9273"))}}]);

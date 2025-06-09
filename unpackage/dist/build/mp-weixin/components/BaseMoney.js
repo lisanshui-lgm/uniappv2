@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/BaseMoney"],{2107:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var i={name:"BaseMoney",props:{digits:{type:Number,default:2},money:{type:String|Number,default:""},line:{type:Boolean,default:!1},weight:{type:Boolean,default:!1},symbol:{type:Boolean,default:!0},color:{type:String,default:"var(--view-theme)"},textColor:{type:String,default:"#999"},symbolSize:{type:String,default:"20"},integerSize:{type:String,default:"26"},decimalSize:{type:String,default:"24"},inline:{type:Boolean,default:!1},preFix:{type:String,default:""},preFixSize:{type:String,default:"24"},SemiBold:{type:Boolean,default:!0},isCoupon:{type:Boolean,default:!1}},data:function(){return{integer:0,decimal:0}},watch:{money:{handler:function(e,t){var n=Number(e).toFixed(this.digits);n=n.split("."),this.integer=n[0].replace(/\B(?=(\d{3})+(?!\d))/g,","),n[1]&&(this.decimal=n[1])},immediate:!0}},computed:{}};t.default=i},4164:function(e,t,n){"use strict";n.r(t);var i=n("c8a0"),a=n("9af3");for(var u in a)["default"].indexOf(u)<0&&function(e){n.d(t,e,(function(){return a[e]}))}(u);n("c1bd");var o=n("828b"),r=Object(o["a"])(a["default"],i["b"],i["c"],!1,null,"4e6369a3",null,!1,i["a"],void 0);t["default"]=r.exports},"9af3":function(e,t,n){"use strict";n.r(t);var i=n("2107"),a=n.n(i);for(var u in i)["default"].indexOf(u)<0&&function(e){n.d(t,e,(function(){return i[e]}))}(u);t["default"]=a.a},c1bd:function(e,t,n){"use strict";var i=n("df51"),a=n.n(i);a.a},c8a0:function(e,t,n){"use strict";n.d(t,"b",(function(){return i})),n.d(t,"c",(function(){return a})),n.d(t,"a",(function(){}));var i=function(){var e=this.$createElement;this._self._c},a=[]},df51:function(e,t,n){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/BaseMoney-create-component',
+    {
+        'components/BaseMoney-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('df3c')['createComponent'](__webpack_require__("4164"))
+        })
+    },
+    [['components/BaseMoney-create-component']]
+]);
